@@ -1,4 +1,4 @@
-let diaSemana = 2
+let diaSemana = 0
 let diaSemanaTexto;
 switch (diaSemana) {
     case 0:
