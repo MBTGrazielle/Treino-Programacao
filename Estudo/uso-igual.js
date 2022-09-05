@@ -1,13 +1,13 @@
-// = // atribuindo valor
+// = atribuindo valor
 // let nome = 'Alane';
 
-// ==// isso é igual?
+// == isso é igual?
 // ele analisa somente o conteúdo/valor
 
-// ===// isso é idêntico?
+// === isso é idêntico?
 // ele analisa conteúdo/valor e o tipo
 
-//let idade = "25";
+// let idade = "25";
 
 // if (idade === 25) {
 //     console.log('é igual');
