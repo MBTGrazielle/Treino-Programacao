@@ -7,3 +7,5 @@ for (let numero = 0; numero <= 50; numero++) {
         console.log(numero, "impar")
     }
 }
+
+//imprima o resultado em arrays separadas para os números pares e ímpares
