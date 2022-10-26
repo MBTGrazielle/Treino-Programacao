@@ -28,8 +28,21 @@ const getUsuariosId = async (request, response) => {
     }
 }
 
+const getUsuariosNome = async (request, response) => {
+    try {
+        let usuariosJson = await db("usuarios")
+        let nomeRequest = request.query.nome.toLowerCase()
+        let encontraUsuarioPeloNome = usuariosJson.filter(usuario => usuario.nome.toLowerCase().includes(nomeRequest))
+        if (encontraUsuarioPeloNome == undefined) throw new Error("Usuário não encontrado.")
+        response.status(200).send(encontraUsuarioPeloNome)
+    } catch (error) {
+        response.status(404).json({ message: error.message })
+    }
+}
+
 
 module.exports = {
     getUsuarios,
-    getUsuariosId
+    getUsuariosId,
+    getUsuariosNome
 }
