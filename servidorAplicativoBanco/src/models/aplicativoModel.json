@@ -1,0 +1,22 @@
+[
+    {
+        "id": "0",
+        "nome": "Brizza",
+        "senha": "brizza123"
+    },
+    {
+        "id": "1",
+        "nome": "Gabriela",
+        "senha": "gabriela589"
+    },
+    {
+        "id": "2",
+        "nome": "Alane",
+        "senha": "alane855"
+    },
+    {
+        "id": "3",
+        "nome": "Pricila",
+        "senha": "pricila789"
+    }
+]
